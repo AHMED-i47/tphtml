@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="res/images/Favicon.ico" />
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="res/css/style.css">
+    
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <strong>Welcome to your dashboard!</strong>
+    </header>
+    
+
+    <!-- First Section -->
+    <section>
+      <div>
+        <figure>
+          <img src="res/images/me.png" width="128" height="128" alt="My picture" />
+          <figcaption>That's me!</figcaption>
+        </figure>
+      </div>
+      <div>
+        <ul>
+          <li>AHMED HAMDAOUA</li>
+          <li>20/05/2004</li>
+          <li>Software Engineering</li>
+        </ul>
+      </div>
+      <div>
+        <strong>2.65</strong>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section>
+      <h1>Courses</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Course Title</th>
+            <th>Semester</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><a href="https://example.com/course1" target="_blank" title="Click to visit">Agile software development</a></td>
+            <td>Fall</td>
+            <td>82</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><a href="https://example.com/course2" target="_blank">Web development</a></td>
+            <td>Fall</td>
+            <td>92</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><a href="https://example.com/course3" target="_blank">Operating Systems</a></td>
+            <td>Spring</td>
+            <td>76</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><a href="https://example.com/course4" target="_blank">Cyber Security</a></td>
+            <td>Spring</td>
+            <td>58</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Total Courses: 4</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+      <h2>Add a Course</h2>
+      <form>
+        <label>Course Title:
+          <input type="text" name="title" />
+        </label><br />
+        <label>Semester:
+          <select name="semester">
+            <option value="fall">Fall</option>
+            <option value="spring">Spring</option>
+          </select>
+        </label><br />
+        <label>Grade:
+          <input type="number" name="grade" min="0" max="100" />
+        </label><br />
+        <button type="submit">Add Course</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <ul>
+        <li><a href="https://www.inpt.ac.ma/" target="_blank">moodle</a></li>
+        <li><a href="mailto:exemple@inpt.ac.ma">Envoyer un email</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
